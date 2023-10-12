@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
     <>
-      <p>Hello Note App</p>
+    <div>
+      <Button variant="ghost">Delete</Button>
+    </div>
     </>
   )
 }
