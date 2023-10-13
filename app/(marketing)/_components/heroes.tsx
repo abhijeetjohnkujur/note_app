@@ -10,7 +10,7 @@ const Heroes = ()  => {
                         <Image src="/documents.svg" alt="Documents" fill className="object-contain"/>
                     </div>
 
-                    <div className="relative h-[400px] w-[400px]">
+                    <div className="relative h-[400px] w-[400px] hidden md:block">
                             <Image src="/reading.svg" alt="Reading" fill className="object-contain"/>
                     </div>
             </div>
