@@ -40,6 +40,11 @@ const Navigation = () => {
         }
     }
 
+    const handleMouseUp = ()  => {
+        isResizingRef.current = false;
+        document.removeEventListener("mousemove", handleMouseMove)
+        document.removeEventListener("mouseUp", handleMouseUp)
+    }
 
 
   return (
