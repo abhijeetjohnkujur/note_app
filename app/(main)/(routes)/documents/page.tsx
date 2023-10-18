@@ -9,7 +9,7 @@ import { api } from "@/convex/_generated/api";
 import { toast } from "sonner";
 const DocumentsPage = () => {
     const {user} = useUser();
-    const create = useMutation(api.document.create);
+    const create = useMutation(api.documents.create);
 
     const onCreate = () => {
         const promise = create({
